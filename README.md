@@ -40,7 +40,7 @@
 - Yahoo
 - Twitter
 - Ooyala
-##Tổng kết
+## Tổng kết
 - Đối với các nhà cung cấp giải pháp CNTT, Apache Spark là một lá bài quan trọng trong việc sử dụng các công nghệ cốt lõi để xây dựng những data warehouses hiện đại. Đây là một phân khúc lớn trong ngành IT có khả năng thu về hàng tỉ đô doanh thu hằng năm. Spark đưa ra một khái niệm mới mang nhiều hứa hẹn trong tương lai đó là data lakes. Đây là một nơi lưu trữ một lượng dữ liệu khổng lồ với nhiều định dạng khác nhau và được truy vấn để xử lý khi cần thiết. Data lakes đưa ra một framework thương mại có thể tạo ra một môi trường lưu trữ vô hạn bất kỳ loại dữ liệu nào.
 - Với sự phát triển mạnh mẽ trong vài năm trở lại đây của Apache Spark thì lập trình viên, các nhà khoa học máy tính có thêm công cụ hữu hiệu để phục vụ công việc của mình và người ta sẽ dần quên “Hadoop Stack” mà thay thế vào đó sẽ là “Big data Stack”, với nhiều sự lựa chọn hơn không chỉ là Hadoop.
 # Tổng quan về Mapreduce
