@@ -1,0 +1,1 @@
+Apache Spark là một open source cluster computing framework được phát triển sơ khởi vào năm 2009 bởi AMPLab tại đại học California. Spark được ứng dụng công nghệ vào phân tích và xử lý dữ liệu nhanh chóng.
