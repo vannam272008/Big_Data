@@ -55,11 +55,11 @@
   + Hàm Reduce() : tiếp nhận từ khóa trung gian và những giá trị tương ứng với lượng từ khóa đó. Sau đó, tiến hành ghép chúng lại để có thể tạo thành một tập khóa khác nhau. Các cặp khóa/giá trị này thường sẽ thông qua một con trỏ vị trí để đưa vào các hàm reduce. Quá trình này sẽ giúp cho lập trình viên quản lý dễ dàng hơn một lượng danh sách cũng như  phân bổ giá trị sao cho  phù hợp nhất với bộ nhớ hệ thống.
  - Đây là mô hình dựa vào các khái niệm biển đối của bản đồ và reduce những chức năng lập trình theo hướng chức năng. Thư viện của thủ tục Map() và Reduce() sẽ được viết bằng nhiều loại ngôn ngữ khác nhau. Thủ tục được cài đặt miễn phí và được sử dụng phổ biến nhất là là Apache Hadoop.
 ## Hoạt động
-B1: Đọc dữ liệu đầu vào
-B2: Xử lý dữ liệu đầu vào (thực hiện hàm map)
-B3: Sắp xếp và trộn các kết quả thu được từ các máy tính phân tán thích hợp nhất.
-B4: Tổng hợp các kết quả trung gian thu được ( thực hiện hàm reduce)
-B5: Đưa ra kết quả cuối cùng.
+ B1: Đọc dữ liệu đầu vào
+ B2: Xử lý dữ liệu đầu vào (thực hiện hàm map)
+ B3: Sắp xếp và trộn các kết quả thu được từ các máy tính phân tán thích hợp nhất.
+ B4: Tổng hợp các kết quả trung gian thu được ( thực hiện hàm reduce)
+ B5: Đưa ra kết quả cuối cùng.
 <img src="https://s3-ap-southeast-1.amazonaws.com/kipalog.com/m%C3%B4%20h%C3%ACnh%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng.png_5a3zte8t56">
 ## Luồng dữ liệu nền tảng của Mapreduce
  - Input Reader
