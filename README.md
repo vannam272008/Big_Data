@@ -61,6 +61,7 @@
  - B4: Tổng hợp các kết quả trung gian thu được ( thực hiện hàm reduce).
  - B5: Đưa ra kết quả cuối cùng.
 <img src="https://s3-ap-southeast-1.amazonaws.com/kipalog.com/m%C3%B4%20h%C3%ACnh%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng.png_5a3zte8t56">
+
 ## Luồng dữ liệu nền tảng của Mapreduce
  - Input Reader
  - Map Function
