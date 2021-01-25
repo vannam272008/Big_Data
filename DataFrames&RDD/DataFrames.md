@@ -33,50 +33,7 @@
  
  
  
- <div id="mainbar" class="article-detail" role="main" aria-label="article" data-topic-id="5bee3d942722a8b5b5d84a1b">
-            <div class="question" id="article">
-                <div class="post-layout">
-                    <div class="votecell post-layout--left mt4 pr24">
-                        <div class="js-voting-container grid fd-column ai-stretch gs4 fc-black-200 p-sticky">
-                            <div class="js-vote-up-btn grid--cell s-btn s-btn__unset c-pointer">
-                                <a href="/user/55ee42e98b75f32e3414f11f" class="tip_user">
-                                    <img src="https://cdn.helpex.vn/upload/2020/06/23/55ee42e98b75f32e3414f11f-073457723_50x50.jpg" width="32" class="border-radius3">
-                                </a>
-                            </div>
-                            <button class="js-vote-up-btn grid--cell s-btn s-btn__unset c-pointer" title="">
-                                <svg aria-hidden="true" class="m0 svg-icon iconArrowUpLg" width="36" height="36" viewBox="0 0 36 36">
-                                    <path d="M2 26h32L18 10 2 26z"></path>
-                                </svg>
-                            </button>
-                            <div class="js-vote-count grid--cell fc-black-500 fs-title grid fd-column ai-center" itemprop="upvoteCount">6</div>
-                            <button class="js-vote-down-btn grid--cell s-btn s-btn__unset c-pointer" title="">
-                                <svg aria-hidden="true" class="m0 svg-icon iconArrowDownLg" width="36" height="36" viewBox="0 0 36 36">
-                                    <path d="M2 10h32L18 26 2 10z"></path>
-                                </svg>
-                            </button>
-
-                            <button class="js-bookmark-btn s-btn s-btn__unset c-pointer py4 js-gps-track mb12" title="">
-                                <svg aria-hidden="true" class="svg-icon iconBookmark" width="18" height="18" viewBox="0 0 18 18">
-                                    <path d="M6 1a2 2 0 00-2 2v14l5-4 5 4V3a2 2 0 00-2-2H6zm3.9 3.83h2.9l-2.35 1.7.9 2.77L9 7.59l-2.35 1.7.9-2.76-2.35-1.7h2.9L9 2.06l.9 2.77z"></path>
-                                </svg>
-                                <div class="js-bookmark-count mt4">0</div>
-                            </button>
-
-                            <div class="js-vote-up-btn grid--cell s-btn s-btn__unset c-pointer mb8 border_bbc0c4 border-radius3">
-                                <a class="ficon-social" id="share-fb" href="javascript:void(0)" onclick="javascript:genericSocialShare('https://facebook.com/sharer.php?u=' + window.location.href)" title="Facebook Share"><i class="fab fa-facebook-f"></i></a>
-                            </div>
-                            <div class="js-vote-up-btn grid--cell s-btn s-btn__unset c-pointer mb8 border_bbc0c4 border-radius3">
-                                <a class="ficon-social" id="share-gp" href="javascript:void(0)" onclick="javascript:genericSocialShare('https://plus.google.com/share?url=' + window.location.href)" title="Google Plus Share"><i class="fab fa-google"></i></a>
-                            </div>
-                            <div class="js-vote-up-btn grid--cell s-btn s-btn__unset c-pointer mb8 border_bbc0c4 border-radius3">
-                                <a class="ficon-social" id="share-tw" href="javascript:void(0)" onclick="javascript:genericSocialShare('http://twitter.com/share?text=Chia sẻ bài viết từ Helpex.vn&amp;url=' + window.location.href)" title="Twitter Share"><i class="fab fa-twitter"></i></a>
-                            </div>
-                            <div class="js-vote-up-btn grid--cell s-btn s-btn__unset c-pointer mb8 border_bbc0c4 border-radius3">
-                                <a class="ficon-social" id="share-email" href="javascript:void(0)" onclick="javascript:genericSocialShare('mailto:?subject=Chia sẻ bài viết từ Helpex.vn&amp;body=' + window.location.href)" title="E-Mail Share"><i class="far fa-envelope"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="postcell post-layout--right">
+ <div class="postcell post-layout--right">
 
                         <div class="s-prose js-post-body content-article" itemprop="text">
                             
@@ -244,16 +201,3 @@
                         </div>
 
                     </div>
-
-                    <div class="post-layout--right">
-
-                        <div id="comments-link-5c6b21e6ae03f628d053c29e">
-                                <a class="js-add-link comments-link disabled-link" title="" href="#" role="button">thêm 1 bình luận</a>
-                                <span class="js-link-separator dno">&nbsp;|&nbsp;</span>
-                                <a class="js-show-link comments-link " title="mở rộng để hiển thị tất cả các bình luận về bài đăng này" href="#" onclick="" role="button"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
