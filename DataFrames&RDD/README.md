@@ -39,5 +39,11 @@
  
  Để xem sơ đồ, tức là cấu trúc của DataFrame, chúng ta sẽ sử dụng phương thức printSchema . Điều này sẽ cung cấp cho chúng tôi các cột khác nhau trong DataFrame của chúng tôi, cùng với loại dữ liệu và các điều kiện không thể thực hiện được cho cột cụ thể đó.
  
-![2](https://user-images.githubusercontent.com/76508715/106382033-4754b780-63ef-11eb-9b23-414ae564822d.PNG)
+<img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/2.PNG">
+
+## Tên cột và Count (Hàng và Cột)
+Khi muốn xem tên và số lượng hàng và cột của một DataFrame cụ thể, ta sử dụng phương pháp sau:
+
+
+
  
