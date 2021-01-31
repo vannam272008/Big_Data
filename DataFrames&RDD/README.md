@@ -145,6 +145,8 @@ Còn có một số khác như: Lọc dữ liệu (filter), Sắp xếp dữ li�
 
 <img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/13.PNG">
 
+# Link Colab: https://colab.research.google.com/drive/1iz4iukvfX5IJtfvzfNS-ME__-TVfsXB8?usp=sharing
+
 # Tài liệu tham khảo
 1. https://www.edureka.co/blog/pyspark-dataframe-tutorial/#what
 2. https://blog.vietnamlab.vn/xu-ly-du-lieu-voi-spark-dataframe/
