@@ -30,3 +30,5 @@
  <b> DataFrames trong Pyspark có thể được tạo theo nhiều cách: </b>
  - Dữ liệu có thể được tải thông qua tệp CSV, JSON, XML  hoặc tệp Parquet. Nó cũng có thể được tạo bằng RDD hiện có và thông qua bất kỳ cơ sở dữ liệu nào khác, như Hive hoặc Cassandra . Nó cũng có thể lấy dữ liệu từ HDFS hoặc hệ thống tệp cục bộ.
  - Hãy tiếp tục với hướng dẫn PySpark DataFrame này và hiểu cách tạo DataFrames.
+ 
+ ![1](https://user-images.githubusercontent.com/76508715/106381813-05774180-63ee-11eb-9443-13d0a0774581.PNG)
