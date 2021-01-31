@@ -67,6 +67,7 @@
     + Kubernetes
     + Standalone Mode (Chế độ độc lập)
 
+
 # Tài liệu tham khảo
 1. https://spark.apache.org/docs/2.3.0/configuration.html
   
