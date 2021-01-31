@@ -44,6 +44,27 @@
 ## Tên cột và Count (Hàng và Cột)
 Khi muốn xem tên và số lượng hàng và cột của một DataFrame cụ thể, ta sử dụng phương pháp sau:
 
+<img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/3.PNG">
+
+## Select nhiều cột
+
+<img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/4.PNG">
+
+Còn có một số khác như: Lọc dữ liệu (filter), Sắp xếp dữ liệu (OrderBy),...
+
+# Apache Spark RDD
+
+Resilient Distributed Datasets (RDD) là một cấu trúc dữ liệu cơ bản của Spark. Nó là một tập hợp bất biến phân tán của một đối tượng. Mỗi dataset trong RDD được chia ra thành nhiều phần vùng logical. Có thể được tính toán trên các node khác nhau của một cụm máy chủ (cluster).
+
+RDDs có thể chứa bất kỳ kiểu dữ liệu nào của Python, Java, hoặc đối tượng Scala, bao gồm các kiểu dữ liệu do người dùng định nghĩa. Thông thường, RDD chỉ cho phép đọc, phân mục tập hợp của các bản ghi. RDDs có thể được tạo ra qua điều khiển xác định trên dữ liệu trong bộ nhớ hoặc RDDs, RDD là một tập hợp có khả năng chịu lỗi mỗi thành phần có thể được tính toán song song.
+
+<b>Có hai cách để tạo RDDs:</b>
+- Tạo từ một tập hợp dữ liệu có sẵn trong ngôn ngữ sử dụng như Java, Python, Scala.
+- Lấy từ dataset hệ thống lưu trữ bên ngoài như HDFS, Hbase hoặc các cơ sở dữ liệu quan hệ.
 
 
- 
+# Tài liệu tham khảo
+1. https://www.edureka.co/blog/pyspark-dataframe-tutorial/#what
+2. https://blog.vietnamlab.vn/xu-ly-du-lieu-voi-spark-dataframe/
+
+
