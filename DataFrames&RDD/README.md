@@ -32,7 +32,8 @@
  - Hãy tiếp tục với hướng dẫn PySpark DataFrame này và hiểu cách tạo DataFrames.
  
  ## Đọc dữ liệu từ tệp CSV
-![title](https://prntscr.com/xwyioh)
+ 
+<img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/1.PNG">
  
  ## Lược đồ của DataFrame
  
