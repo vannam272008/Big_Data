@@ -123,9 +123,34 @@ Còn có một số khác như: Lọc dữ liệu (filter), Sắp xếp dữ li�
  - <b>Lưu trữ file.</b>
  - <b>Caching:</b> Tăng tốc xử lý bằng cache.
  - <b>Checkpointing:</b> Lưu trữ lại các bước xử lý để phục hồi.
+ 
+## Dưới đây là demo có sử dụng RDD (Bài toán tìm từ xuất hiện nhiều nhất)
+- <b> Đầu tiên tạo SparkConf sau đó tạo SparkContext từ SparkConf.</b>
+
+<img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/9.PNG">
+
+- <b>Đọc file.</b>
+
+<img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/10.PNG">
+
+- <b>Sử dụng hàm map() để trả về một tập dữ liệu phân tán mới. </b>
+
+<img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/11.PNG">
+
+- <b>Sử dụng hàm reduceByKey().
+
+<img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/12.PNG">
+
+- <b>Cuối cùng, xuất ra từ xuất hiện nhiều lần nhất và số lần xuất hiện.</b>
+
+<img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/13.PNG">
 
 # Tài liệu tham khảo
 1. https://www.edureka.co/blog/pyspark-dataframe-tutorial/#what
 2. https://blog.vietnamlab.vn/xu-ly-du-lieu-voi-spark-dataframe/
+3. https://spark.apache.org/docs/latest/rdd-programming-guide.html
+4. https://www.tutorialspoint.com/apache_spark/apache_spark_rdd.htm
+5. https://helpex.vn/article/rdd-trong-spark-la-gi-va-tai-sao-chung-ta-can-no-5c6afe5bae03f628d053a84c
+6. https://laptrinh.vn/books/apache-spark/page/apache-spark-rdd
 
 
