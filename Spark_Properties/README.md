@@ -27,8 +27,14 @@
 ## Dynamically Loading Spark Properties (Tải động các thuộc tính Spark)
 
 - Trong một số trường hợp, có thể muốn tránh mã hóa cứng các cấu hình nhất định trong SparkConf.
+
 - Spark shell và công cụ spark-submit hỗ trợ hai cách để tải cấu hình động. Đầu tiên là các tùy chọn dòng lệnh, chẳng hạn như --master, như được hiển thị ở trên. spark-submitcó thể chấp nhận bất kỳ thuộc tính Spark nào bằng cách sử dụng --conf flag, nhưng sử dụng cờ đặc biệt cho các thuộc tính đóng một phần trong việc khởi chạy ứng dụng Spark. Chạy dòng lệnh: ./bin/spark-submit --helpsẽ hiển thị toàn bộ danh sách các tùy chọn này.
+
 - bin/spark-submitcũng sẽ đọc các tùy chọn cấu hình conf/spark-defaults.conf, trong đó mỗi dòng bao gồm một khóa và một giá trị được phân tách bằng khoảng trắng.
+
+- Mọi giá trị được chỉ định dưới dạng cờ hoặc trong tệp thuộc tính sẽ được chuyển đến ứng dụng và được hợp nhất với những giá trị được chỉ định thông qua SparkConf. Các thuộc tính được đặt trực tiếp trên SparkConf được ưu tiên cao nhất, sau đó các flag được chuyển đến spark-submithoặc spark-shell, sau đó là các tùy chọn trong spark-defaults.conf file. Một vài khóa cấu hình đã được đổi tên kể từ các phiên bản Spark trước đó; trong những trường hợp như vậy, các tên khóa cũ hơn vẫn được chấp nhận, nhưng được ưu tiên thấp hơn bất kỳ trường hợp nào của khóa mới hơn.
+
+- Các thuộc tính của Spark chủ yếu có thể được chia thành hai loại: một là liên quan đến triển khai, như “spark.driver.memory”, “spark.executor.instances”, loại thuộc tính này có thể không bị ảnh hưởng khi thiết lập theo chương trình SparkConf trong thời gian chạy, hoặc hành vi là tùy thuộc vào trình quản lý cụm và chế độ triển khai bạn chọn, vì vậy bạn nên đặt thông qua tệp cấu hình hoặc spark-submit command line options; một thứ khác chủ yếu liên quan đến Spark runtime control, như “spark.task.maxFailures”, loại thuộc tính này có thể được đặt theo một trong hai cách.
 
 ## Xem thuộc tính Spark
 
@@ -45,10 +51,22 @@
   + Compression and Serialization (Nén và tuần tự hóa)
   + Memory Management (Quản lý bộ nhớ)
   + Execution Behavior (Hành vi Thực thi)
-  
-  
-  
-  
+  + Networking
+  + Scheduling
+  + Dynamic Allocation (Phân bổ động)
+  + Security
+  + TLS / SSL
+  + Spark SQL
+  + Spark Streaming
+  + SparkR
+  + GraphX
+  + Deploy
+  + Cluster Managers:
+    + YARN
+    + Mesos
+    + Kubernetes
+    + Standalone Mode (Chế độ độc lập)
 
-  
+# Tài liệu tham khảo
+1. https://spark.apache.org/docs/2.3.0/configuration.html
   
