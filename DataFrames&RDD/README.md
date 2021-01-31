@@ -54,6 +54,8 @@ Còn có một số khác như: Lọc dữ liệu (filter), Sắp xếp dữ li�
 
 # Apache Spark RDD
 
+## RDD
+
 - Resilient Distributed Datasets (RDD) là một cấu trúc dữ liệu cơ bản của Spark. Nó là một tập hợp bất biến phân tán của một đối tượng. Mỗi dataset trong RDD được chia ra thành nhiều phần vùng logical. Có thể được tính toán trên các node khác nhau của một cụm máy chủ (cluster).
 
 - RDDs có thể chứa bất kỳ kiểu dữ liệu nào của Python, Java, hoặc đối tượng Scala, bao gồm các kiểu dữ liệu do người dùng định nghĩa. Thông thường, RDD chỉ cho phép đọc, phân mục tập hợp của các bản ghi. RDDs có thể được tạo ra qua điều khiển xác định trên dữ liệu trong bộ nhớ hoặc RDDs, RDD là một tập hợp có khả năng chịu lỗi mỗi thành phần có thể được tính toán song song.
@@ -62,7 +64,34 @@ Còn có một số khác như: Lọc dữ liệu (filter), Sắp xếp dữ li�
 - Tạo từ một tập hợp dữ liệu có sẵn trong ngôn ngữ sử dụng như Java, Python, Scala.
 - Lấy từ dataset hệ thống lưu trữ bên ngoài như HDFS, Hbase hoặc các cơ sở dữ liệu quan hệ.
 
-## Thực thi trên MapRedure
+## Tại sao chúng ta cần RDD?
+
+- Chia sẻ dữ liệu chậm trong MapReduce do sao chép, tuần tự hóa và IO đĩa . Hầu hết các ứng dụng Hadoop, chúng dành hơn 90% thời gian để thực hiện các thao tác đọc-ghi HDFS.
+- Hỗ trợ tính toán xử lý trong bộ nhớ. Điều này có nghĩa là, nó lưu trữ trạng thái bộ nhớ như một đối tượng trên các công việc và đối tượng có thể chia sẻ giữa các công việc đó. Chia sẻ dữ liệu trong bộ nhớ nhanh hơn mạng và Đĩa từ 10 đến 100 lần.
+- Tất cả công việc trong Spark được thể hiện dưới dạng tạo RDD mới, chuyển đổi RDD hiện có hoặc gọi các hành động trên RDD để tính toán kết quả. Spark tự động phân phối dữ liệu có trong RDD trên toàn bộ cụm của bạn và song song hóa các thao tác bạn thực hiện trên chúng.
+
+<b>- Iterative Operation trên Spark RDD:</b>
+
+<img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/5.PNG">
+
+<b>- Interactive Operations trên Spark RDD:</b>
+
+<img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/6.PNG">
+
+<b>- Các loại RDD</b>
+
+<img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/7.PNG">
+
+- Các RDD biểu diễn một tập hợp cố định, đã được phân vùng các record để có thể xử lý song song.
+- Các record trong RDD có thể là đối tượng Java, Scale hay Python tùy lập trình viên chọn. Không giống như DataFrame, mỗi record của DataFrame phải là một dòng có cấu trúc chứa các field đã được định nghĩa sẵn.
+- RDD đã từng là API chính được sử dụng trong series Spark 1.x và vẫn có thể sử dụng trong version 2.X nhưng không còn được dùng thường xuyên nữa.
+- RDD API có thể được sử dụng trong Python, Scala hay Java:
+  + Scala và Java: Perfomance tương đương trên hầu hết mọi phần. (Chi phí lớn nhất là khi xử lý các raw object)
+  + Python: Mất một lượng performance, chủ yếu là cho việc serialization giữa tiến trình Python và JVM
+  
+## Các transformation và action với RDD
+- RDD cung cấp các transformation và action hoạt động giống như DataFrame lẫn DataSets. Transformation xử lý các thao tác lazily và Action xử lý thao tác cần xử lý tức thời.
+
 
 
 # Tài liệu tham khảo
