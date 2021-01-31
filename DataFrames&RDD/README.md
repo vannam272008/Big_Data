@@ -31,4 +31,12 @@
  - Dữ liệu có thể được tải thông qua tệp CSV, JSON, XML  hoặc tệp Parquet. Nó cũng có thể được tạo bằng RDD hiện có và thông qua bất kỳ cơ sở dữ liệu nào khác, như Hive hoặc Cassandra . Nó cũng có thể lấy dữ liệu từ HDFS hoặc hệ thống tệp cục bộ.
  - Hãy tiếp tục với hướng dẫn PySpark DataFrame này và hiểu cách tạo DataFrames.
  
- ![1](https://user-images.githubusercontent.com/76508715/106381813-05774180-63ee-11eb-9443-13d0a0774581.PNG)
+ ## Đọc dữ liệu từ tệp CSV
+![title](https://prntscr.com/xwyioh)
+ 
+ ## Lược đồ của DataFrame
+ 
+ Để xem sơ đồ, tức là cấu trúc của DataFrame, chúng ta sẽ sử dụng phương thức printSchema . Điều này sẽ cung cấp cho chúng tôi các cột khác nhau trong DataFrame của chúng tôi, cùng với loại dữ liệu và các điều kiện không thể thực hiện được cho cột cụ thể đó.
+ 
+![2](https://user-images.githubusercontent.com/76508715/106382033-4754b780-63ef-11eb-9b23-414ae564822d.PNG)
+ 
