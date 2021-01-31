@@ -92,7 +92,37 @@ Còn có một số khác như: Lọc dữ liệu (filter), Sắp xếp dữ li�
 ## Các transformation và action với RDD
 - RDD cung cấp các transformation và action hoạt động giống như DataFrame lẫn DataSets. Transformation xử lý các thao tác lazily và Action xử lý thao tác cần xử lý tức thời.
 
+<img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/8.PNG">
 
+<b>- Một số transformation:</b>
+
+=> Nhiều phiên bản transformation của RDD có thể hoạt động trên các Structured API, transformation xử lý lazily, tức là chỉ giúp dựng execution plans, dữ liệu chỉ được truy xuất thực sự khi thực hiện action.
+
+ - <b>distinct:</b> loại bỏ trùng lắp trong RDD
+ - <b>filter:</b> tương đương với việc sử dụng where trong SQL – tìm các record trong RDD xem những phần tử nào thỏa điều kiện. Có thể cung cấp một hàm phức tạp sử dụng để filter các record cần thiết – Như trong Python, ta có thể sử dụng hàm lambda để truyền vào filter
+ - <b>map:</b> thực hiện một công việc nào đó trên toàn bộ RDD. Trong Python sử dụng lambda với từng phần tử để truyền vào map
+ - <b>flatMap:</b> cung cấp một hàm đơn giản hơn hàm map. Yêu cầu output của map phải là một structure có thể lặp và mở rộng được.
+ - <b>sortBy:</b> mô tả một hàm để trích xuất dữ liệu từ các object của RDD và thực hiện sort được từ đó.
+ - <b>randomSplit:</b> nhận một mảng trọng số và tạo một random seed, tách các RDD thành một mảng các RDD có số lượng chia theo trọng số.
+
+<b>- Một số action:</b>
+
+=> Action thực thi ngay các transformation đã được thiết lập để thu thập dữ liệu về driver để xử lý hoặc ghi dữ liệu xuống các công cụ lưu trữ.
+
+ - <b>reduce:</b> thực hiện hàm reduce trên RDD để thu về 1 giá trị duy nhất.
+ - <b>count:</b> đếm số dòng trong RDD.
+ - <b>countApprox:</b> phiên bản đếm xấp xỉ của count, nhưng phải cung cấp timeout vì có thể không nhận được kết quả.
+ - <b>countByValue:</b> đếm số giá trị của RDD chỉ sử dụng nếu map kết quả nhỏ vì tất cả dữ liệu sẽ được load lên memory của driver để tính toán chỉ nên sử dụng trong tình huống số dòng nhỏ và số lượng item khác nhau cũng nhỏ.
+ - <b>countApproxDistinct:</b> đếm xấp xỉ các giá trị khác nhau.
+ - <b>countByValueApprox:</b> đếm xấp xỉ các giá trị.
+ - <b>first:</b> lấy giá trị đầu tiên của dataset.
+ - <b>max và min:</b> lần lượt lấy giá trị lớn nhất và nhỏ nhất của dataset take và các method tương tự: lấy một lượng giá trị từ trong RDD. take sẽ trước hết scan qua một partition và sử dụng kết quả để dự đoán số lượng partition cần phải lấy thêm để thỏa mãn số lượng lấy. top và takeOrdered: top sẽ hiệu quả hơn takeOrdered vì top lấy các giá trị đầu tiên được sắp xếp ngầm trong RDD.
+ - <b>takeSamples:</b> lấy một lượng giá trị ngẫu nhiên trong RDD.
+
+<b>Một số kỹ thuật đối với RDD</b>
+ - <b>Lưu trữ file.</b>
+ - <b>Caching:</b> Tăng tốc xử lý bằng cache.
+ - <b>Checkpointing:</b> Lưu trữ lại các bước xử lý để phục hồi.
 
 # Tài liệu tham khảo
 1. https://www.edureka.co/blog/pyspark-dataframe-tutorial/#what
