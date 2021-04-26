@@ -23,3 +23,7 @@
   - Ví dụ : + phân loại Email, gồm có email công việc, email gia đình, email spam, ...
 
 **Unsupervised Learning (Học không giám sát)**
+  - Mô hình hóa một tập dữ liệu, không có sẵn các ví dụ đã được gắn nhãn. Có thể hiểu đơn giản là chúng ta không biết được outcome hay label (nhãn) mà chỉ có dữ liệu đầu vào.
+  - Dựa vào cấu trúc của dữ liệu để thực hiện một công việc nào đó
+  - Ví dụ: phân nhóm (clustering) hoặc giảm số chiều của dữ liệu (dimension reduction) để thuận tiện trong việc lưu trữ và tính toán.
+  - Clustering nhằm mục đích nhóm các tập con của các thực thể với nhau dựa trên một số khái niệm về sự giống nhau.
