@@ -75,9 +75,15 @@
 
 ## Ví dụ về Machine Learning (Áp dụng thuật toán Logistic Regression cho bank dataset thực hiện trên Google Colab)
 
-  **Config Spark context và đọc data từ Drive
+  **Config Spark context và đọc data từ Drive**
   
   <img src="https://github.com/vannam272008/Big_Data/blob/main/Machine%20Learning/Config%20Spark%20context%20v%C3%A0%20%C4%91%E1%BB%8Dc%20data%20t%E1%BB%AB%20Drive.PNG">
+  
+  **Chuyển đổi dạng dữ liệu chuỗi sang số để dễ tính toán và xử lý**
+  
+  <img src="https://github.com/vannam272008/Big_Data/blob/main/Machine%20Learning/Convert%20String%20col%20to%20Numeric.PNG">
+  
+  
   
   
 ## Tài liệu tham khảo
