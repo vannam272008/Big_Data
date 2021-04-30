@@ -7,7 +7,7 @@
   
   => Có hai cách phổ biến để phân nhóm các thuật toán Machine learning. Một là dựa trên phương thức học (learning style), hai là dựa trên chức năng (function) (của mỗi thuật toán).
   
-### Phân nhóm dựa trên phương thức học
+### *Phân nhóm dựa trên phương thức học
 
 **Supervised Learning (Học có giám sát)**
   - Thuật toán tạo ra một hàm ánh xạ dữ liệu vào tới kết quả mong muốn. Một phát biểu chuẩn về một việc học có giám sát là bài toán phân loại: chương trình cần học (cách xấp xỉ biểu hiện của) một hàm ánh xạ một vector tới một vài lớp bằng cách xem xét một số mẫu dữ liệu - kết quả của hàm đó.
@@ -41,5 +41,5 @@
   - Các bài toán giúp cho một hệ thống tự động xác định hành vi dựa trên hoàn cảnh để đạt được lợi ích cao nhất (maximizing the performance).
   - Chủ yếu được áp dụng vào Lý Thuyết Trò Chơi (Game Theory), các thuật toán cần xác định nước đi tiếp theo để đạt được điểm số cao nhất.
  
-### Phân nhóm dựa trên phương thức học
+### *Phân nhóm dựa trên phương thức học
 
