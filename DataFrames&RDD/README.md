@@ -36,7 +36,7 @@
  - Hãy tiếp tục với hướng dẫn PySpark DataFrame này và hiểu cách tạo DataFrames.
  
  ## sử dụng createDataFrame() chức năng của SparkSession để tạo một dataFrame:
- - Ví dụ thực hiện trên Colab Google:
+ **- Ví dụ thực hiện trên Google Colab:**
  <img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/15.PNG">
  
  ## Đọc dữ liệu từ tệp CSV
