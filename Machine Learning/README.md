@@ -102,6 +102,10 @@
   **Tính Aaccuracy (độ chính xác) bằng thư viện MulticlassClassificationEvaluator**
   
   <img src="https://github.com/vannam272008/Big_Data/blob/main/Machine%20Learning/Calculate%20Accuracy.PNG">
+  
+  **Link Google Colab**
+  
+  https://colab.research.google.com/drive/1YmEBiUx73VI93FU3QzfxALLdANGaCEhd?usp=sharing
    
 ## Tài liệu tham khảo
   1. https://ichi.pro/vi/spark-for-machine-learning-su-dung-python-va-mllib-74075263465224
