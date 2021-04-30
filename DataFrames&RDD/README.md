@@ -5,11 +5,6 @@
 
  <img src="https://cdn.helpex.vn/upload/2019/2/19/ar/04-21-36-545-52ab82fe-9dc6-43bb-8eca-58874c82c0d1.jpg">
  
- ## DataFrame trong Pyspark có thể được tạo theo nhiều cách:
- 
- <img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/14.PNG">
- 
- - Dữ liệu có thể được tải vào thông qua tệp CSV, JSON, XML hoặc tệp Parquet. Nó cũng có thể được tạo bằng cách sử dụng RDD hiện có và thông qua bất kỳ cơ sở dữ liệu nào khác, như Hive Table hay Apache Cassandra . Nó cũng có thể lấy dữ liệu từ HDFS hoặc hệ thống tệp cục bộ.
 ## Lý do cần DataFrames
   <b>1. Xử lý dữ liệu có cấu trúc và bán cấu trúc (Processing Structured and Semi-Structured Data)</b>
   
@@ -34,6 +29,9 @@
  
  ## Nguồn dữ liệu của PySpark
  <b> DataFrames trong Pyspark có thể được tạo theo nhiều cách: </b>
+ 
+  <img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/14.PNG">
+ 
  - Dữ liệu có thể được tải thông qua tệp CSV, JSON, XML  hoặc tệp Parquet. Nó cũng có thể được tạo bằng RDD hiện có và thông qua bất kỳ cơ sở dữ liệu nào khác, như Hive hoặc Cassandra . Nó cũng có thể lấy dữ liệu từ HDFS hoặc hệ thống tệp cục bộ.
  - Hãy tiếp tục với hướng dẫn PySpark DataFrame này và hiểu cách tạo DataFrames.
  
