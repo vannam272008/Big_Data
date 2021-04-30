@@ -41,5 +41,20 @@
   - Các bài toán giúp cho một hệ thống tự động xác định hành vi dựa trên hoàn cảnh để đạt được lợi ích cao nhất (maximizing the performance).
   - Chủ yếu được áp dụng vào Lý Thuyết Trò Chơi (Game Theory), các thuật toán cần xác định nước đi tiếp theo để đạt được điểm số cao nhất.
  
-### *Phân nhóm dựa trên phương thức học
+### *Phân nhóm dựa trên chức năng
 
+**Một số thuật toán phổ biến:**
+**- Về Regression Algorithms (Thuật toán hồi quy):**
+  + Linear Regression: Là một phương pháp phân tích quan hệ giữa biến phụ thuộc Y với một hay nhiều biến độc lập X.
+  + Logistic Regression: Trong thống kê, mô hình logistic được sử dụng để mô hình xác suất của một lớp hoặc sự kiện nào đó tồn tại như: vượt qua/thất bại, thắng/thua, sống/chết, có bệnh/không có bệnh,...
+  + Stepwise Regression: Hồi quy từng bước là một phương pháp phù hợp với các mô hình hồi quy trong đó việc lựa chọn các biến dự báo được thực hiện bằng một thủ tục tự động.
+**- Classification Algorithms (Thuật toán phân loại):**
+  + Linear Classifier: Sử dụng các đặc điểm của một đối tượng để xác định nó thuộc về lớp nào.
+  + Support Vector Machine (SVM): Để phân loại và phân tích hồi quy. SVM dạng chuẩn nhận dữ liệu vào và phân loại chúng vào hai lớp khác nhau. Do đó SVM là một thuật toán phân loại nhị phân.
+  + Kernel SVM: Các thuật toán SVM sử dụng một tập hợp các hàm toán học được định nghĩa là hạt nhân. Chức năng của kernel là lấy dữ liệu đầu vào và biến đổi nó thành dạng yêu cầu. Các thuật toán SVM khác nhau sử dụng các loại hàm nhân (kernel function) khác nhau.
+  + Sparse Representation-based classification (SRC): Là một phương pháp nhận dạng khuôn mặt mạnh mẽ.
+**- Instance-based Algorithms:**
+  + k-Nearest Neighbor (kNN): Là một phương pháp thống kê phi tham số. Sử dụng cho phân loại bằng thống kê và phân tích hồi quy.
+  + Learning Vector Quantization (LVQ):  Là một thuật toán phân loại được giám sát dựa trên nguyên mẫu. LVQ là đối tác được giám sát của các hệ thống lượng tử hóa vector.
+**- Bayesian Algorithms (Thuật toán Bayes): **
+- 
