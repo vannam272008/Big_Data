@@ -83,9 +83,26 @@
   
   <img src="https://github.com/vannam272008/Big_Data/blob/main/Machine%20Learning/Convert%20String%20col%20to%20Numeric.PNG">
   
+  **Xóa đi những cột mà không chuyển được sang dạng số**
   
+  <img src="https://github.com/vannam272008/Big_Data/blob/main/Machine%20Learning/Drop%20String%20col.PNG">
   
+  **Lấy feature_names và dùng VectorAssembler để transform data thành một vector duy nhất rồi gán vào cột features**
   
+  <img src="https://github.com/vannam272008/Big_Data/blob/main/Machine%20Learning/Use%20VectorAssembler%20to%20transform%20data%20into%20single%20vector.PNG">
+  
+  **Tách train test sau đó sử dụng thư viện LogisticRegression để mô hình hóa xác suất của cột features vừa tạo ở trên**
+  
+  <img src="https://github.com/vannam272008/Big_Data/blob/main/Machine%20Learning/Split%20the%20training%20test%20and%20use%20library%20LogisticRegression.PNG">
+  
+  **Sau đó dùng fit và transform để fit và dự đoán data**
+  
+  <img src="https://github.com/vannam272008/Big_Data/blob/main/Machine%20Learning/Fit%20model%20and%20Transform%20data.PNG">
+  
+  **Tính Aaccuracy (độ chính xác) bằng thư viện MulticlassClassificationEvaluator**
+  
+  <img src="https://github.com/vannam272008/Big_Data/blob/main/Machine%20Learning/Calculate%20Accuracy.PNG">
+   
 ## Tài liệu tham khảo
   1. https://ichi.pro/vi/spark-for-machine-learning-su-dung-python-va-mllib-74075263465224
   2. https://vi.wikipedia.org/wiki/H%E1%BB%8Dc_m%C3%A1y
