@@ -35,6 +35,10 @@
  - Dữ liệu có thể được tải thông qua tệp CSV, JSON, XML  hoặc tệp Parquet. Nó cũng có thể được tạo bằng RDD hiện có và thông qua bất kỳ cơ sở dữ liệu nào khác, như Hive hoặc Cassandra . Nó cũng có thể lấy dữ liệu từ HDFS hoặc hệ thống tệp cục bộ.
  - Hãy tiếp tục với hướng dẫn PySpark DataFrame này và hiểu cách tạo DataFrames.
  
+ ## sử dụng createDataFrame() chức năng của SparkSession để tạo một dataFrame:
+ 
+ <img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/15.PNG">
+ 
  ## Đọc dữ liệu từ tệp CSV
  
 <img src="https://github.com/vannam272008/Big_Data/blob/main/DataFrames%26RDD/1.PNG">
