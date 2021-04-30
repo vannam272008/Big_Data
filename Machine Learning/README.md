@@ -61,5 +61,19 @@
   + Learning Vector Quantization (LVQ):  Là một thuật toán phân loại được giám sát dựa trên nguyên mẫu. LVQ là đối tác được giám sát của các hệ thống lượng tử hóa vector.
  
 **Bayesian Algorithms (Thuật toán Bayes):**
+  + Naive Bayes: Áp dụng định lý Bayes với các giả định về tính độc lập mạnh mẽ (naive) giữa các đối tượng.
+  + Gaussian Naive Bayes: Sử dụng chủ yếu trong loại dữ liệu mà các thành phần là các biến liên tục.
+ 
+**Clustering Algorithms (Thuật toán phân cụm):**
+  + k-Means clustering: Là 1 phương pháp lượng tử hóa vector dùng để phân các điểm dữ liệu cho trước vào các cụm khác nhau.
+  + k-Medians clustering: Là một biến thể của phân cụm k-Means, tính giá trị trung bình cho mỗi cụm để xác định trọng tâm của nó, thay vì tính toán trung vị.
 
+**Ensemble Algorithms:**
+  + Boosting: Là một thuật toán meta tổng hợp để chủ yếu làm giảm sự thiên vị, và cũng là phương sai trong học tập có giám sát, và một nhóm các thuật toán học máy chuyển đổi những người học yếu thành những người mạnh.
+  + AdaBoost: Adaptive Bo boost, là một thuật toán tổng hợp phân loại thống kê. Nó có thể được sử dụng kết hợp với nhiều loại thuật toán học tập khác để cải thiện hiệu suất.
+  + Random Forest: Là một phương pháp học tập tổng hợp để phân loại, hồi quy và các nhiệm vụ khác hoạt động bằng cách xây dựng vô số cây quyết định tại thời điểm training và xuất ra lớp là chế độ (mode) của các lớp (phân loại) hoặc dự đoán mean/average prediction (hồi quy) của các cây riêng lẻ. Phù hợp với thói quen thích nghi quá mức  của cây quyết định (overfitting) đối với tập huấn luyện của chúng (training set).
 
+## Tài liệu tham khảo
+  1. https://ichi.pro/vi/spark-for-machine-learning-su-dung-python-va-mllib-74075263465224
+  2. https://vi.wikipedia.org/wiki/H%E1%BB%8Dc_m%C3%A1y
+  3. https://machinelearningcoban.com/2016/12/27/categories/
