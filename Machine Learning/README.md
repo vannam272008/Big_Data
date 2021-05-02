@@ -73,7 +73,7 @@
   + AdaBoost: Adaptive Bo boost, là một thuật toán tổng hợp phân loại thống kê. Nó có thể được sử dụng kết hợp với nhiều loại thuật toán học tập khác để cải thiện hiệu suất.
   + Random Forest: Là một phương pháp học tập tổng hợp để phân loại, hồi quy và các nhiệm vụ khác hoạt động bằng cách xây dựng vô số cây quyết định tại thời điểm training và xuất ra lớp là chế độ (mode) của các lớp (phân loại) hoặc dự đoán mean/average prediction (hồi quy) của các cây riêng lẻ. Phù hợp với thói quen thích nghi quá mức  của cây quyết định (overfitting) đối với tập huấn luyện của chúng (training set).
 
-## Ví dụ về Machine Learning (Áp dụng thuật toán Logistic Regression cho bank dataset thực hiện trên Google Colab)
+## Ví dụ về Machine Learning (Áp dụng thuật toán Logistic Regression cho Bank Marketing dataset để giải quyết bài toán khách hàng đã đăng ký gửi tiền có kỳ hạn hay chưa) thực hiện trên Google Colab
 
   **Config Spark context và đọc data từ Drive**
   
